@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  app:
+    image: nginx:latest
+    volumes:
+      - .:/usr/share/nginx/html/
+    environment:
+      - VIRTUAL_HOST=site2.org
+      - SERVICE_PORTS=80
+    networks: 
+      - proxy
+
+networks:
+  proxy:
+    external:
+      name: proxy
