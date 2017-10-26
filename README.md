@@ -25,7 +25,7 @@ docker stack deploy -c site1\docker-compose.web.yml site1
 ## Deploy Site 2
 
 ```
-docker stack deploy -c site1\docker-compose.web.yml site1
+docker stack deploy -c site1\docker-compose.web.yml site2
 ```
 
 ## (local dev only) Update Hosts file
