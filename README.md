@@ -1,6 +1,6 @@
 # HAProxy-Docker-Sample
 
-After following the steps below you should be able to browse to `site1.org` and `site2.org` in your default web browser and see the HAProxy woking.
+After following the steps below you should be able to browse to `site1.org` and `site2.org` in your default web browser and see the HAProxy woking. If you are not sure what a reverse proxy is and when to use it check out [this](http://mikehadlow.blogspot.ch/2013/05/the-benefits-of-reverse-proxy.html) post for further information.
 
 ## Proxy Network
 
