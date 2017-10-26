@@ -16,6 +16,12 @@ docker network create --driver overlay --scope swarm proxy
 docker stack deploy -c proxy\docker-compose.haproxy.yml proxy
 ```
 
+## Deploy visualizer
+
+```
+docker stack deploy -c viz\docker-compose.viz.yml viz
+```
+
 ## Deploy Site 1
 
 ```
@@ -41,6 +47,7 @@ Add the following lines.
 ```
 127.0.0.1       site1.org
 127.0.0.1       site2.org
+127.0.0.1       viz.org
 ```
 
 ## Stats page
