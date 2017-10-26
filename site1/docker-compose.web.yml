@@ -6,7 +6,7 @@ services:
     volumes:
       - .:/usr/share/nginx/html/
     environment:
-      - VIRTUAL_HOST=site2.org
+      - VIRTUAL_HOST=site1.org
       - SERVICE_PORTS=80
     networks: 
       - proxy

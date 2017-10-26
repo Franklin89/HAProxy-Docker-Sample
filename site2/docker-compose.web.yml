@@ -5,8 +5,9 @@ services:
     image: nginx:latest
     volumes:
       - .:/usr/share/nginx/html/
-    expose:
-      - "80"
+    environment:
+      - VIRTUAL_HOST=site2.org
+      - SERVICE_PORTS=80
     networks: 
       - proxy
 
